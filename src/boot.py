@@ -3,7 +3,7 @@ import network
 import upip
 import config
 
-DEPENDENCIES = []
+DEPENDENCIES = ['uasyncio']
 INSTALL_PACKAGES = False
 
 
@@ -26,4 +26,4 @@ def do_connect():
         install_packages()
 
 
-# do_connect()
+do_connect()
